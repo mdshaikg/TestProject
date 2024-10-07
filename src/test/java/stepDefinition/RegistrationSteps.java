@@ -74,6 +74,9 @@ public class RegistrationSteps {
 
 		String confmsg=regpage.getConfirmationMsg();
 		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+		
+		//Assert.assertEquals(confmsg, "Your Account Has Been Created!"); just added this line for github second comment
+		
 	}
 
 	
